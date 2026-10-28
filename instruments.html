@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donated Instruments: Meaning in Music</title>
+  <meta name="description" content="Borrow a donated used instrument for free. Browse the catalog, check condition and history, and apply to rent it for your child." />
+  <link rel="icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow reveal" data-site-text="ins_hero_eyebrow">Donated Instruments</span>
+      <h1 class="reveal stagger-1" data-site-text="ins_hero_title">Borrow an instrument, rent free</h1>
+      <p class="lead reveal stagger-2" data-site-text="ins_hero_lead">
+        Thanks to generous donors, we lend used instruments out at no cost.
+        Browse the catalog, read each instrument's story and condition, and
+        apply to borrow one while your child learns.
+      </p>
+    </div>
+
+    <section class="section" id="available">
+      <div class="section-head reveal">
+        <span class="eyebrow" data-site-text="ins_cat_eyebrow">Catalog</span>
+        <h2 data-site-text="ins_cat_title">Instruments to rent</h2>
+        <p data-site-text="ins_cat_p">Click any instrument to see its photos, description, maker, and condition notes.</p>
+      </div>
+      <div id="instrumentGrid" class="grid grid-3"></div>
+    </section>
+
+    <section class="section" id="apply">
+      <div class="glass reveal" style="max-width:720px;margin:0 auto;padding:40px 38px">
+        <h2 style="font-family:var(--font-display);font-size:clamp(1.5rem,3.5vw,1.9rem);font-weight:700;letter-spacing:-.02em;margin-bottom:8px" data-site-text="ins_apply_title">Apply to rent an instrument</h2>
+        <p style="color:var(--text-dim);font-size:.94rem;margin-bottom:24px" data-site-text="ins_apply_text">
+          Borrowing is completely free and instruments are lent while your child is active in lessons.
+          Tell us a little about your situation so we can match you well.
+        </p>
+
+        <form class="form-grid" id="instrumentForm">
+          <div class="form-row">
+            <div class="field">
+              <label for="parent">Parent / guardian name</label>
+              <input id="parent" name="parent" type="text" placeholder="Jane Doe" required />
+            </div>
+            <div class="field">
+              <label for="email">Contact email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="childAge">Child's age</label>
+              <input id="childAge" name="childAge" type="number" min="1" max="18" placeholder="10" required />
+            </div>
+            <div class="field">
+              <label for="phone">Phone <span style="color:var(--text-faint);font-weight:400">(optional)</span></label>
+              <input id="phone" name="phone" type="tel" placeholder="555-123-4567" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="instrument">Instrument you'd like</label>
+              <select id="instrument" name="instrument" required>
+                <option value="" disabled selected>Choose an instrument&hellip;</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="experience">Previous experience (short answer)</label>
+              <input id="experience" name="experience" type="text" placeholder="e.g. A year of piano in school" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="school">Child's school <span style="color:var(--text-faint);font-weight:400">(optional)</span></label>
+              <input id="school" name="school" type="text" placeholder="e.g. Franklin Elementary" />
+            </div>
+            <div class="field">
+              <label for="grade">Grade <span style="color:var(--text-faint);font-weight:400">(optional)</span></label>
+              <input id="grade" name="grade" type="text" placeholder="e.g. 3rd grade" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="ownInstrument">Does your child already own an instrument?</label>
+            <select id="ownInstrument" name="ownInstrument">
+              <option>No</option>
+              <option>Yes — a different instrument</option>
+              <option>Yes — the one I'm requesting</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="whyInstrument">Why does your child want to learn this instrument?</label>
+            <textarea id="whyInstrument" name="whyInstrument" placeholder="What made them pick it up?" required></textarea>
+          </div>
+          <div class="field">
+            <label for="carePlan">How will the instrument be cared for during the loan?</label>
+            <textarea id="carePlan" name="carePlan" placeholder="Where it's stored, practice habits, how you'll keep it safe" required></textarea>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="duration">How long do you expect to need it?</label>
+              <input id="duration" name="duration" type="text" placeholder="e.g. 6 months, until the school year ends" required />
+            </div>
+            <div class="field">
+              <label for="inLessons">Is your child currently in lessons?</label>
+              <select id="inLessons" name="inLessons">
+                <option>Yes — with Meaning in Music</option>
+                <option>Yes — elsewhere</option>
+                <option>Not yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Anything else we should know?</label>
+            <textarea id="message" name="message" placeholder="Interests, school, schedule&hellip;"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="justify-content:center;width:100%;border:0">
+            Submit application
+          </button>
+          <p id="formStatus" style="display:none;text-align:center;font-size:.92rem;font-weight:600"></p>
+        </form>
+        <p class="instrument-note" data-site-text="ins_note">
+          Reservations are first-come, first-served and reviewed by our team. Instruments stay property
+          of Meaning in Music and are lent for free while your child is enrolled in lessons.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script src="store.js"></script>
+  <script src="config.js"></script>
+  <script src="content.js"></script>
+  <script src="main.js"></script>
+  <script>
+    var grid = document.getElementById("instrumentGrid");
+    var instrumentSelect = document.getElementById("instrument");
+
+    mimFetchAll().then(function (added) {
+      if (!added.length) {
+        grid.innerHTML = '<div class="glass admin-empty" style="justify-self:center;align-self:center">No instruments listed yet — check back soon.</div>';
+        return;
+      }
+      grid.innerHTML = "";
+      added.forEach(function (it) {
+        grid.insertAdjacentHTML("beforeend", mimCardHTML(it));
+        var opt = document.createElement("option");
+        opt.textContent = it.name;
+        instrumentSelect.appendChild(opt);
+      });
+      if (window.setupReveal) setupReveal();
+    });
+
+    document.getElementById("instrumentForm").addEventListener("submit", async function (e) {
+      e.preventDefault();
+      var btn = this.querySelector("button[type='submit']");
+      var status = document.getElementById("formStatus");
+      var payload = {
+        type: "Instrument rental",
+        name: document.getElementById("parent").value.trim(),
+        email: document.getElementById("email").value.trim(),
+        phone: document.getElementById("phone").value.trim(),
+        age: document.getElementById("childAge").value.trim(),
+        school: document.getElementById("school").value.trim(),
+        grade: document.getElementById("grade").value.trim(),
+        instrument: document.getElementById("instrument").value,
+        experience: document.getElementById("experience").value.trim(),
+        ownInstrument: document.getElementById("ownInstrument").value,
+        whyInstrument: document.getElementById("whyInstrument").value.trim(),
+        carePlan: document.getElementById("carePlan").value.trim(),
+        duration: document.getElementById("duration").value.trim(),
+        inLessons: document.getElementById("inLessons").value,
+        message: document.getElementById("message").value.trim(),
+      };
+      btn.disabled = true;
+      btn.textContent = "Sending\u2026";
+      var result = await mimSubmitApplication(payload);
+      if (result.ok) {
+        status.style.display = "block";
+        status.style.color = "#1d7a5c";
+        status.textContent = "Thanks! Your application was sent. We'll be in touch soon.";
+        this.reset();
+      } else {
+        status.style.display = "block";
+        status.style.color = "#b3462e";
+        status.textContent = "We couldn't send your application right now. Please email meaninginmusiceducation@gmail.com instead.";
+      }
+      btn.disabled = false;
+      btn.textContent = "Submit application";
+    });
+  </script>
+</body>
+</html>

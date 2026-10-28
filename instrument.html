@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instrument: Meaning in Music</title>
+  <link rel="icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main>
+    <div id="content">
+      <div class="glass" style="max-width:520px;margin:80px auto;text-align:center">
+        <div class="page-hero" style="padding:40px 24px">
+          <h1 style="font-family:var(--font-display);font-size:1.5rem">Loading instrument&#8230;</h1>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="store.js"></script>
+  <script src="main.js"></script>
+  <script>
+    var content = document.getElementById("content");
+    var id = new URLSearchParams(window.location.search).get("id");
+
+    mimFetchOne(id).then(function (item) {
+      if (!item) {
+        content.innerHTML =
+          '<section class="page-hero">' +
+          "<h1 style='font-family:var(--font-display);font-size:clamp(2rem,5vw,2.8rem)'>Instrument not found</h1>" +
+          "<p class='lead'>This instrument may have been removed. </p>" +
+          '<a href="instruments.html" class="btn btn-primary" style="margin-top:20px">Browse instruments</a>' +
+          "</section>";
+        return;
+      }
+      document.title = item.name + " — Meaning in Music";
+      content.innerHTML =
+        '<a href="instruments.html" class="back-link">' +
+        '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>' +
+        "Back to all instruments</a>" +
+        mimDetailHTML(item);
+      if (window.setupReveal) setupReveal();
+
+      var main = document.getElementById("galleryMain");
+      var thumbs = content.querySelectorAll(".gallery-thumb");
+      thumbs.forEach(function (t) {
+        t.addEventListener("click", function () {
+          var src = t.getAttribute("src");
+          if (main) main.src = src;
+          thumbs.forEach(function (x) { x.classList.remove("active"); });
+          t.classList.add("active");
+        });
+      });
+    });
+  </script>
+</body>
+</html>

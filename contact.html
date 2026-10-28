@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us: Meaning in Music</title>
+  <meta name="description" content="Get in touch with Meaning in Music." />
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow reveal" data-site-text="con_hero_eyebrow">Contact</span>
+      <h1 class="reveal stagger-1" data-site-text="con_hero_title">Write to us</h1>
+      <p class="lead reveal stagger-2" data-site-text="con_hero_lead">Whether it's lessons for your kid, teaching with us, an instrument you'd like to pass on, or something else entirely, send us a note. One of us reads every message and writes back.</p>
+    </div>
+
+    <section class="contact-layout">
+      <div class="reveal">
+        <a href="mailto:meaninginmusiceducation@gmail.com" class="contact-item">
+          <div>
+            <strong data-site-text="con_email_title">Email us</strong>
+            <span data-site-text="con_email_value">meaninginmusiceducation@gmail.com</span>
+          </div>
+        </a>
+        <a href="mailto:meaninginmusiceducation@gmail.com" class="contact-item">
+          <div>
+            <strong data-site-text="con_lessons_title">Lessons &amp; applications</strong>
+            <span data-site-text="con_lessons_value">Questions about signing up, schedules, or instruments</span>
+          </div>
+        </a>
+        <a href="mailto:meaninginmusiceducation@gmail.com" class="contact-item">
+          <div>
+            <strong data-site-text="con_out_title">Community &amp; outreach</strong>
+            <span data-site-text="con_out_value">Schools, community groups, and anyone who wants to help</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="glass">
+        <h2 style="font-family:var(--font-display);font-size:1.4rem;letter-spacing:-.02em;margin-bottom:6px" data-site-text="con_msg_title">Send a message</h2>
+        <p style="color:var(--text-dim);font-size:.9rem;margin-bottom:22px" data-site-text="con_msg_text">This goes straight to our inbox.</p>
+        <form class="form-grid" id="contactForm">
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Your name</label>
+              <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+            </div>
+            <div class="field">
+              <label for="email">Your email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="phone">Phone <span style="color:var(--text-faint);font-weight:400">(optional)</span></label>
+              <input id="phone" name="phone" type="tel" placeholder="555-123-4567" />
+            </div>
+            <div class="field">
+              <label for="subject">I'm reaching out about&hellip;</label>
+              <select id="subject" name="subject">
+                <option>Applying for lessons</option>
+                <option>Becoming an instructor</option>
+                <option>Volunteering</option>
+                <option>Donating</option>
+                <option>Partnership / school</option>
+                <option>Something else</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us a little about what you need&hellip;" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="justify-content:center">
+            Send message
+          </button>
+          <p id="formStatus" style="display:none;text-align:center;font-size:.92rem;font-weight:600"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="content.js"></script>
+  <script src="main.js"></script>
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", async function (e) {
+      e.preventDefault();
+      var btn = this.querySelector("button[type='submit']");
+      var status = document.getElementById("formStatus");
+      var payload = {
+        type: document.getElementById("subject").value,
+        name: document.getElementById("name").value.trim(),
+        email: document.getElementById("email").value.trim(),
+        phone: document.getElementById("phone").value.trim(),
+        message: document.getElementById("message").value.trim(),
+      };
+      btn.disabled = true;
+      btn.textContent = "Sending\u2026";
+      var result = await mimSubmitApplication(payload);
+      if (result.ok) {
+        status.style.display = "block";
+        status.style.color = "var(--green)";
+        status.textContent = "Thanks! Your message was sent. We'll get back to you soon.";
+        this.reset();
+      } else {
+        status.style.display = "block";
+        status.style.color = "var(--accent-deep)";
+        status.textContent = "We couldn't send your message right now. Please email meaninginmusiceducation@gmail.com instead.";
+      }
+      btn.disabled = false;
+      btn.textContent = "Send message";
+    });
+  </script>
+</body>
+</html>

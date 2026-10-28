@@ -1,0 +1,1756 @@
+{
+    "fields": [
+        {
+            "key": "home_hero_eyebrow",
+            "page": "Home",
+            "section": "Hero",
+            "label": "Eyebrow",
+            "type": "text",
+            "value": "Student-run nonprofit · San Francisco Bay Area"
+        },
+        {
+            "key": "home_hero_title",
+            "page": "Home",
+            "section": "Hero",
+            "label": "Headline",
+            "type": "text",
+            "value": "Free music lessons for kids, taught by high school musicians"
+        },
+        {
+            "key": "home_hero_lead",
+            "page": "Home",
+            "section": "Hero",
+            "label": "Sub-headline",
+            "type": "textarea",
+            "value": "Meaning in Music pairs children across the Bay Area with experienced high school instructors for weekly one-on-one lessons. Lessons are always free, and we loan instruments to families who need one."
+        },
+        {
+            "key": "home_hero_img",
+            "page": "Home",
+            "section": "Hero",
+            "label": "Hero img",
+            "type": "image",
+            "value": "spring-concert.jpg"
+        },
+        {
+            "key": "home_hero_credit",
+            "page": "Home",
+            "section": "Hero",
+            "label": "Hero credit",
+            "type": "text",
+            "value": "Our musicians at the Athenian spring concert, 2026. Photo: Lindsay Baloun."
+        },
+        {
+            "key": "home_fact_1_h",
+            "page": "Home",
+            "section": "Fact",
+            "label": "Fact 1 h",
+            "type": "text",
+            "value": "Always free"
+        },
+        {
+            "key": "home_fact_1_d",
+            "page": "Home",
+            "section": "Fact",
+            "label": "Fact 1 d",
+            "type": "text",
+            "value": "No tuition, fees, or deposits"
+        },
+        {
+            "key": "home_fact_2_h",
+            "page": "Home",
+            "section": "Fact",
+            "label": "Fact 2 h",
+            "type": "text",
+            "value": "One-on-one"
+        },
+        {
+            "key": "home_fact_2_d",
+            "page": "Home",
+            "section": "Fact",
+            "label": "Fact 2 d",
+            "type": "text",
+            "value": "30-minute weekly lessons"
+        },
+        {
+            "key": "home_fact_3_h",
+            "page": "Home",
+            "section": "Fact",
+            "label": "Fact 3 h",
+            "type": "text",
+            "value": "Instruments loaned"
+        },
+        {
+            "key": "home_fact_3_d",
+            "page": "Home",
+            "section": "Fact",
+            "label": "Fact 3 d",
+            "type": "text",
+            "value": "Donated by our community"
+        },
+        {
+            "key": "home_fact_4_h",
+            "page": "Home",
+            "section": "Fact",
+            "label": "Fact 4 h",
+            "type": "text",
+            "value": "Any level"
+        },
+        {
+            "key": "home_fact_4_d",
+            "page": "Home",
+            "section": "Fact",
+            "label": "Fact 4 d",
+            "type": "text",
+            "value": "Beginners are welcome"
+        },
+        {
+            "key": "home_about_eyebrow",
+            "page": "Home",
+            "section": "About",
+            "label": "About eyebrow",
+            "type": "text",
+            "value": "Who we are"
+        },
+        {
+            "key": "home_about_title",
+            "page": "Home",
+            "section": "A note from the founders",
+            "label": "Heading",
+            "type": "text",
+            "value": "Making music education accessible to every child"
+        },
+        {
+            "key": "home_about_p1",
+            "page": "Home",
+            "section": "A note from the founders",
+            "label": "Paragraph 1",
+            "type": "textarea",
+            "value": "Private music lessons in our area typically cost $50 to $80 an hour, and some local elementary schools have no music program at all. For many families, that puts learning an instrument out of reach."
+        },
+        {
+            "key": "home_about_p2",
+            "page": "Home",
+            "section": "A note from the founders",
+            "label": "Paragraph 2",
+            "type": "textarea",
+            "value": "Meaning in Music was founded in 2022 by students at The Athenian School to help close that gap. Our volunteer instructors are high school musicians with years of training who teach younger students one-on-one, every week, at no cost to families."
+        },
+        {
+            "key": "home_about_img",
+            "page": "Home",
+            "section": "About",
+            "label": "About img",
+            "type": "image",
+            "value": "team-group.jpg"
+        },
+        {
+            "key": "home_about_credit",
+            "page": "Home",
+            "section": "About",
+            "label": "About credit",
+            "type": "text",
+            "value": "Meaning in Music instructors before a performance."
+        },
+        {
+            "key": "home_how_eyebrow",
+            "page": "Home",
+            "section": "How",
+            "label": "How eyebrow",
+            "type": "text",
+            "value": "Our program"
+        },
+        {
+            "key": "home_how_title",
+            "page": "Home",
+            "section": "How lessons work",
+            "label": "How title",
+            "type": "text",
+            "value": "How lessons work"
+        },
+        {
+            "key": "home_how_1_h",
+            "page": "Home",
+            "section": "How lessons work",
+            "label": "How 1 h",
+            "type": "text",
+            "value": "Apply online"
+        },
+        {
+            "key": "home_how_1_d",
+            "page": "Home",
+            "section": "How lessons work",
+            "label": "How 1 d",
+            "type": "textarea",
+            "value": "Tell us your child's age, the instrument they're interested in, and any experience they have."
+        },
+        {
+            "key": "home_how_2_h",
+            "page": "Home",
+            "section": "How lessons work",
+            "label": "How 2 h",
+            "type": "text",
+            "value": "Introductory call"
+        },
+        {
+            "key": "home_how_2_d",
+            "page": "Home",
+            "section": "How lessons work",
+            "label": "How 2 d",
+            "type": "textarea",
+            "value": "We speak with you and your child to learn about their goals, then match them with an instructor."
+        },
+        {
+            "key": "home_how_3_h",
+            "page": "Home",
+            "section": "How lessons work",
+            "label": "How 3 h",
+            "type": "text",
+            "value": "Weekly lessons"
+        },
+        {
+            "key": "home_how_3_d",
+            "page": "Home",
+            "section": "How lessons work",
+            "label": "How 3 d",
+            "type": "textarea",
+            "value": "Your child meets their instructor for 30 minutes each week. If needed, we loan an instrument."
+        },
+        {
+            "key": "home_how_4_h",
+            "page": "Home",
+            "section": "How lessons work",
+            "label": "How 4 h",
+            "type": "text",
+            "value": "No cost, ever"
+        },
+        {
+            "key": "home_how_4_d",
+            "page": "Home",
+            "section": "How lessons work",
+            "label": "How 4 d",
+            "type": "textarea",
+            "value": "Every lesson is free. Our instructors and organizers are all student volunteers."
+        },
+        {
+            "key": "home_strip_img1",
+            "page": "Home",
+            "section": "Photo strip",
+            "label": "Strip img1",
+            "type": "image",
+            "value": "outdoor-concert.jpg"
+        },
+        {
+            "key": "home_strip_img2",
+            "page": "Home",
+            "section": "Photo strip",
+            "label": "Strip img2",
+            "type": "image",
+            "value": "guitar-together.jpg"
+        },
+        {
+            "key": "home_strip_img3",
+            "page": "Home",
+            "section": "Photo strip",
+            "label": "Strip img3",
+            "type": "image",
+            "value": "program-orchestra.jpg"
+        },
+        {
+            "key": "home_strip_credit",
+            "page": "Home",
+            "section": "Photo strip",
+            "label": "Strip credit",
+            "type": "textarea",
+            "value": "Our students rehearsing and performing."
+        },
+        {
+            "key": "home_kids_eyebrow",
+            "page": "Home",
+            "section": "Kids",
+            "label": "Kids eyebrow",
+            "type": "text",
+            "value": "Our students"
+        },
+        {
+            "key": "home_kids_title",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kids title",
+            "type": "text",
+            "value": "Meet some of the children we teach"
+        },
+        {
+            "key": "home_kid_1_name",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 1 name",
+            "type": "text",
+            "value": "Maddie, 8"
+        },
+        {
+            "key": "home_kid_1_meta",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 1 meta",
+            "type": "text",
+            "value": "Guitar"
+        },
+        {
+            "key": "home_kid_1_text",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 1 text",
+            "type": "textarea",
+            "value": "Maddie taught herself to read music and practices an hour a day. She came to us looking for a mentor to help her build proper technique."
+        },
+        {
+            "key": "home_kid_1_quote",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 1 quote",
+            "type": "text",
+            "value": "\"Sharing her passion of music with an older student/mentor.\""
+        },
+        {
+            "key": "home_kid_2_name",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 2 name",
+            "type": "text",
+            "value": "Litzy, 9"
+        },
+        {
+            "key": "home_kid_2_meta",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 2 meta",
+            "type": "text",
+            "value": "Flute"
+        },
+        {
+            "key": "home_kid_2_text",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 2 text",
+            "type": "textarea",
+            "value": "Litzy had just started flute at school and was working through the challenge of reaching the keys. She was excited to keep improving."
+        },
+        {
+            "key": "home_kid_2_quote",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 2 quote",
+            "type": "text",
+            "value": "\"How to read notes and play the flute.\""
+        },
+        {
+            "key": "home_kid_3_name",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 3 name",
+            "type": "text",
+            "value": "Jaden, 10"
+        },
+        {
+            "key": "home_kid_3_meta",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 3 meta",
+            "type": "text",
+            "value": "Flute"
+        },
+        {
+            "key": "home_kid_3_text",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 3 text",
+            "type": "textarea",
+            "value": "Jaden's school district has no elementary music program. After trying guitar and piano online, he chose flute as something new to learn."
+        },
+        {
+            "key": "home_kid_3_quote",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 3 quote",
+            "type": "textarea",
+            "value": "\"Jaden wants to learn to play music with an instrument and sight read music.\""
+        },
+        {
+            "key": "home_kid_4_name",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 4 name",
+            "type": "text",
+            "value": "Madison, 6"
+        },
+        {
+            "key": "home_kid_4_meta",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 4 meta",
+            "type": "text",
+            "value": "Piano"
+        },
+        {
+            "key": "home_kid_4_text",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 4 text",
+            "type": "textarea",
+            "value": "Madison loves to sing and already plays ukulele. She is now learning piano and how to read music."
+        },
+        {
+            "key": "home_kid_4_quote",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kid 4 quote",
+            "type": "text",
+            "value": "\"Learns to read music.\""
+        },
+        {
+            "key": "home_kids_note",
+            "page": "Home",
+            "section": "Kids we teach",
+            "label": "Kids note",
+            "type": "textarea",
+            "value": "Quotes are from each family's application. First names are used with permission."
+        },
+        {
+            "key": "home_teachers_img",
+            "page": "Home",
+            "section": "Teachers",
+            "label": "Teachers img",
+            "type": "image",
+            "value": "program-chamber.jpg"
+        },
+        {
+            "key": "home_teachers_credit",
+            "page": "Home",
+            "section": "Teachers",
+            "label": "Teachers credit",
+            "type": "text",
+            "value": "Meaning in Music instructors in concert."
+        },
+        {
+            "key": "home_teachers_eyebrow",
+            "page": "Home",
+            "section": "Teachers",
+            "label": "Teachers eyebrow",
+            "type": "text",
+            "value": "Our instructors"
+        },
+        {
+            "key": "home_teachers_title",
+            "page": "Home",
+            "section": "Teachers",
+            "label": "Teachers title",
+            "type": "text",
+            "value": "Experienced musicians and dedicated mentors"
+        },
+        {
+            "key": "home_teachers_p1",
+            "page": "Home",
+            "section": "Teachers",
+            "label": "Teachers p1",
+            "type": "textarea",
+            "value": "Our instructors are high school students with years of private lessons, orchestra, band, and chamber music experience. Being close in age to their students helps them connect, encourage, and teach with patience."
+        },
+        {
+            "key": "home_teachers_p2",
+            "page": "Home",
+            "section": "Teachers",
+            "label": "Teachers p2",
+            "type": "textarea",
+            "value": "Teaching also helps our instructors grow as leaders, as they plan lessons, track progress, and support each student week after week."
+        },
+        {
+            "key": "home_stats_eyebrow",
+            "page": "Home",
+            "section": "Stats",
+            "label": "Stats eyebrow",
+            "type": "text",
+            "value": "Our impact"
+        },
+        {
+            "key": "home_stats_title",
+            "page": "Home",
+            "section": "Numbers",
+            "label": "Stats title",
+            "type": "text",
+            "value": "Growing in our community"
+        },
+        {
+            "key": "home_stat_1_num",
+            "page": "Home",
+            "section": "Numbers",
+            "label": "Stat 1 — number",
+            "type": "text",
+            "value": "39"
+        },
+        {
+            "key": "home_stat_1_label",
+            "page": "Home",
+            "section": "Numbers",
+            "label": "Stat 1 — label",
+            "type": "text",
+            "value": "families enrolled"
+        },
+        {
+            "key": "home_stat_2_num",
+            "page": "Home",
+            "section": "Numbers",
+            "label": "Stat 2 — number",
+            "type": "text",
+            "value": "38"
+        },
+        {
+            "key": "home_stat_2_label",
+            "page": "Home",
+            "section": "Numbers",
+            "label": "Stat 2 — label",
+            "type": "text",
+            "value": "high school instructors"
+        },
+        {
+            "key": "home_stat_3_num",
+            "page": "Home",
+            "section": "Numbers",
+            "label": "Stat 3 — number",
+            "type": "text",
+            "value": "34"
+        },
+        {
+            "key": "home_stat_3_label",
+            "page": "Home",
+            "section": "Numbers",
+            "label": "Stat 3 — label",
+            "type": "text",
+            "value": "schools represented"
+        },
+        {
+            "key": "home_stat_4_num",
+            "page": "Home",
+            "section": "Numbers",
+            "label": "Stat 4 — number",
+            "type": "text",
+            "value": "8"
+        },
+        {
+            "key": "home_stat_4_label",
+            "page": "Home",
+            "section": "Numbers",
+            "label": "Stat 4 — label",
+            "type": "text",
+            "value": "instruments donated"
+        },
+        {
+            "key": "home_cta_eyebrow",
+            "page": "Home",
+            "section": "Cta",
+            "label": "Cta eyebrow",
+            "type": "text",
+            "value": "Get involved"
+        },
+        {
+            "key": "home_cta_title",
+            "page": "Home",
+            "section": "Ways to help",
+            "label": "Heading",
+            "type": "text",
+            "value": "Ways to support our mission"
+        },
+        {
+            "key": "home_way_1_h",
+            "page": "Home",
+            "section": "Ways to help",
+            "label": "Way 1 h",
+            "type": "text",
+            "value": "Enroll a child"
+        },
+        {
+            "key": "home_way_1_d",
+            "page": "Home",
+            "section": "Ways to help",
+            "label": "Way 1 d",
+            "type": "textarea",
+            "value": "Applications are open to children of any age and experience level. The form takes just a few minutes."
+        },
+        {
+            "key": "home_way_2_h",
+            "page": "Home",
+            "section": "Ways to help",
+            "label": "Way 2 h",
+            "type": "text",
+            "value": "Become an instructor"
+        },
+        {
+            "key": "home_way_2_d",
+            "page": "Home",
+            "section": "Ways to help",
+            "label": "Way 2 d",
+            "type": "textarea",
+            "value": "High school musicians can volunteer to teach a weekly lesson and earn community service hours."
+        },
+        {
+            "key": "home_way_3_h",
+            "page": "Home",
+            "section": "Ways to help",
+            "label": "Way 3 h",
+            "type": "text",
+            "value": "Donate an instrument"
+        },
+        {
+            "key": "home_way_3_d",
+            "page": "Home",
+            "section": "Ways to help",
+            "label": "Way 3 d",
+            "type": "textarea",
+            "value": "Gently used violins, guitars, keyboards, and more go directly to students who need them."
+        },
+        {
+            "key": "abt_hero_eyebrow",
+            "page": "About Us",
+            "section": "Hero",
+            "label": "Eyebrow",
+            "type": "text",
+            "value": "About us"
+        },
+        {
+            "key": "abt_hero_title",
+            "page": "About Us",
+            "section": "Hero",
+            "label": "Headline",
+            "type": "textarea",
+            "value": "Music lessons for every child, not just those who can afford them"
+        },
+        {
+            "key": "abt_hero_lead",
+            "page": "About Us",
+            "section": "Hero",
+            "label": "Sub-headline",
+            "type": "textarea",
+            "value": "Meaning in Music is a student-run nonprofit founded at The Athenian School in Danville, California. High school musicians teach free, one-on-one lessons to younger students across the Bay Area, and we loan instruments to families who need them."
+        },
+        {
+            "key": "abt_mission",
+            "page": "About Us",
+            "section": "Mission statement",
+            "label": "Statement",
+            "type": "textarea",
+            "value": "Any kid who wants to learn music should get to, whatever their family can afford. We do that with free lessons from high school instructors, a lending library of donated instruments, and fundraising for school music programs that need help."
+        },
+        {
+            "key": "abt_story_title",
+            "page": "About Us",
+            "section": "Our story",
+            "label": "Heading",
+            "type": "textarea",
+            "value": "How it started"
+        },
+        {
+            "key": "abt_story_p1",
+            "page": "About Us",
+            "section": "Our story",
+            "label": "Paragraph 1",
+            "type": "textarea",
+            "value": "Those of us who grew up playing had a few things in common: a parent who could pay for lessons, an instrument at home, and usually a school orchestra or band to join. Plenty of kids a few miles away had none of those. Lessons around here run $50 to $80 an hour, a starter instrument costs a few hundred dollars, and at least one district near us has no elementary music program at all."
+        },
+        {
+            "key": "abt_story_p2",
+            "page": "About Us",
+            "section": "Our story",
+            "label": "Paragraph 2",
+            "type": "textarea",
+            "value": "So in the fall of 2022 we started doing what we were actually able to do. We asked classmates who wanted to teach. We wrote a letter to our neighbors asking for instruments that were sitting unused in closets and garages. We posted on elementary school Facebook pages. Our first calls with families happened that October."
+        },
+        {
+            "key": "abt_story_p3",
+            "page": "About Us",
+            "section": "Our story",
+            "label": "Story p3",
+            "type": "textarea",
+            "value": "Those calls were the best part. A parent would tell us their daughter had taught herself to read music, or that their son's school didn't have a music class to join. Then we'd talk to the kid, who usually had a song in mind already."
+        },
+        {
+            "key": "abt_story_img",
+            "page": "About Us",
+            "section": "Our story",
+            "label": "Photo",
+            "type": "image",
+            "value": "program-group-2026.jpg"
+        },
+        {
+            "key": "abt_story_credit",
+            "page": "About Us",
+            "section": "Our story",
+            "label": "Photo credit",
+            "type": "text",
+            "value": "The Meaning in Music group after a concert, 2026."
+        },
+        {
+            "key": "abt_why_title",
+            "page": "About Us",
+            "section": "What a lesson does",
+            "label": "Heading",
+            "type": "text",
+            "value": "What a weekly lesson actually does"
+        },
+        {
+            "key": "abt_why_p1",
+            "page": "About Us",
+            "section": "What a lesson does",
+            "label": "Why p1",
+            "type": "textarea",
+            "value": "Learning to read notes matters, and so does practicing scales. But we think the most important part of a lesson is simpler than that: an older kid shows up every week, knows your name, remembers the song you were stuck on, and is genuinely happy when you get it."
+        },
+        {
+            "key": "abt_why_p2",
+            "page": "About Us",
+            "section": "What a lesson does",
+            "label": "Why p2",
+            "type": "textarea",
+            "value": "That's what a lot of us had growing up, and it's the reason we kept playing. It's also why every kid gets their own teacher instead of a spot in a group class."
+        },
+        {
+            "key": "abt_why_img",
+            "page": "About Us",
+            "section": "What a lesson does",
+            "label": "Why img",
+            "type": "image",
+            "value": "guitar-together.jpg"
+        },
+        {
+            "key": "abt_why_credit",
+            "page": "About Us",
+            "section": "What a lesson does",
+            "label": "Why credit",
+            "type": "text",
+            "value": "Students making music together."
+        },
+        {
+            "key": "abt_how_title",
+            "page": "About Us",
+            "section": "Who it's for",
+            "label": "Heading",
+            "type": "text",
+            "value": "Who it's for"
+        },
+        {
+            "key": "abt_family_title",
+            "page": "About Us",
+            "section": "Who it's for",
+            "label": "For families — title",
+            "type": "text",
+            "value": "Parents and guardians"
+        },
+        {
+            "key": "abt_family_text",
+            "page": "About Us",
+            "section": "Who it's for",
+            "label": "For families — text",
+            "type": "textarea",
+            "value": "It costs nothing. You fill out a form, we have a short call with you and your kid, and we match them with a teacher. If they need an instrument to start, we lend one."
+        },
+        {
+            "key": "abt_child_title",
+            "page": "About Us",
+            "section": "Who it's for",
+            "label": "For children — title",
+            "type": "text",
+            "value": "Kids"
+        },
+        {
+            "key": "abt_child_text",
+            "page": "About Us",
+            "section": "Who it's for",
+            "label": "For children — text",
+            "type": "textarea",
+            "value": "Thirty minutes a week with a teacher who plays your instrument and wants to hear what you've been practicing. You pick the songs as much as we do."
+        },
+        {
+            "key": "abt_hs_title",
+            "page": "About Us",
+            "section": "Who it's for",
+            "label": "For high schoolers — title",
+            "type": "text",
+            "value": "High school musicians"
+        },
+        {
+            "key": "abt_hs_text",
+            "page": "About Us",
+            "section": "Who it's for",
+            "label": "For high schoolers — text",
+            "type": "textarea",
+            "value": "You get a real student from your first week. We help you plan lessons, and you'll find out quickly that explaining something is harder than playing it."
+        },
+        {
+            "key": "abt_partner_title",
+            "page": "About Us",
+            "section": "Who it's for",
+            "label": "For schools & partners — title",
+            "type": "text",
+            "value": "Schools and community groups"
+        },
+        {
+            "key": "abt_partner_text",
+            "page": "About Us",
+            "section": "Who it's for",
+            "label": "For schools & partners — text",
+            "type": "textarea",
+            "value": "We can come play for your students, help spread the word about lessons, and send donated instruments to music programs that need them."
+        },
+        {
+            "key": "abt_funds_img",
+            "page": "About Us",
+            "section": "Where the money goes",
+            "label": "Photo",
+            "type": "image",
+            "value": "program-orchestra.jpg"
+        },
+        {
+            "key": "abt_funds_credit",
+            "page": "About Us",
+            "section": "Where the money goes",
+            "label": "Photo credit",
+            "type": "text",
+            "value": "Our instructors rehearsing."
+        },
+        {
+            "key": "abt_funds_title",
+            "page": "About Us",
+            "section": "Where the money goes",
+            "label": "Heading",
+            "type": "text",
+            "value": "Where the money goes"
+        },
+        {
+            "key": "abt_funds_p1",
+            "page": "About Us",
+            "section": "Where the money goes",
+            "label": "Paragraph 1",
+            "type": "textarea",
+            "value": "Nobody at Meaning in Music is paid. The teachers, the organizers, and the person who built this website are all high school students. What we raise goes to instruments and repairs, lesson books and sheet music, and school music programs that need help."
+        },
+        {
+            "key": "abt_funds_p2",
+            "page": "About Us",
+            "section": "Where the money goes",
+            "label": "Paragraph 2",
+            "type": "textarea",
+            "value": "We're working toward 501(c)(3) status so we can apply for more grants and reach more kids. A donated guitar, a few dollars from a bake sale, and a grant all end up the same way: as lessons."
+        },
+        {
+            "key": "abt_values_title",
+            "page": "About Us",
+            "section": "Values",
+            "label": "Heading",
+            "type": "text",
+            "value": "What we try to stick to"
+        },
+        {
+            "key": "miss_val_1_h",
+            "page": "Mission",
+            "section": "Values",
+            "label": "Value 1 — title",
+            "type": "text",
+            "value": "Love of playing."
+        },
+        {
+            "key": "miss_val_1_d",
+            "page": "Mission",
+            "section": "Values",
+            "label": "Value 1 — description",
+            "type": "textarea",
+            "value": "We started this because we love music. We want kids to love it too, not just get through it."
+        },
+        {
+            "key": "miss_val_2_h",
+            "page": "Mission",
+            "section": "Values",
+            "label": "Value 2 — title",
+            "type": "text",
+            "value": "Showing up."
+        },
+        {
+            "key": "miss_val_2_d",
+            "page": "Mission",
+            "section": "Values",
+            "label": "Value 2 — description",
+            "type": "textarea",
+            "value": "Lessons happen every week and instruments get delivered. We'd rather do small things reliably than big things once."
+        },
+        {
+            "key": "miss_val_3_h",
+            "page": "Mission",
+            "section": "Values",
+            "label": "Value 3 — title",
+            "type": "text",
+            "value": "Keeping count."
+        },
+        {
+            "key": "miss_val_3_d",
+            "page": "Mission",
+            "section": "Values",
+            "label": "Value 3 — description",
+            "type": "textarea",
+            "value": "We track lessons taught, kids taught, and hours played, because that's how we know whether this is working."
+        },
+        {
+            "key": "miss_val_4_h",
+            "page": "Mission",
+            "section": "Values",
+            "label": "Value 4 — title",
+            "type": "text",
+            "value": "Any kid, any music."
+        },
+        {
+            "key": "miss_val_4_d",
+            "page": "Mission",
+            "section": "Values",
+            "label": "Value 4 — description",
+            "type": "textarea",
+            "value": "Classical, pop, whatever a kid wants to play. Music belongs to every kid, whatever their background."
+        },
+        {
+            "key": "miss_val_5_h",
+            "page": "Mission",
+            "section": "Values",
+            "label": "Value 5 — title",
+            "type": "text",
+            "value": "Relationships first."
+        },
+        {
+            "key": "miss_val_5_d",
+            "page": "Mission",
+            "section": "Values",
+            "label": "Value 5 — description",
+            "type": "textarea",
+            "value": "Kids keep playing when someone they look up to is in their corner. The relationship is the point."
+        },
+        {
+            "key": "abt_roots_title",
+            "page": "About Us",
+            "section": "Our roots",
+            "label": "Heading",
+            "type": "text",
+            "value": "Where we come from"
+        },
+        {
+            "key": "abt_roots_p1",
+            "page": "About Us",
+            "section": "Our roots",
+            "label": "Paragraph 1",
+            "type": "textarea",
+            "value": "Meaning in Music began at The Athenian School, a school in Danville at the foot of Mount Diablo that puts a lot of weight on service and leadership."
+        },
+        {
+            "key": "abt_roots_p2",
+            "page": "About Us",
+            "section": "Our roots",
+            "label": "Paragraph 2",
+            "type": "textarea",
+            "value": "We know we've been lucky. Most of us have had good teachers, good instruments, and parents who drove us to rehearsals. This is our way of passing some of that along to kids who live a few miles away and haven't had the same luck."
+        },
+        {
+            "key": "abt_cta_title",
+            "page": "About Us",
+            "section": "Call to action",
+            "label": "Heading",
+            "type": "text",
+            "value": "If you want to help"
+        },
+        {
+            "key": "abt_cta_text",
+            "page": "About Us",
+            "section": "Call to action",
+            "label": "Text",
+            "type": "textarea",
+            "value": "Sign up a kid for lessons, teach with us, give an instrument, or just tell a family who might want this. Any of those helps."
+        },
+        {
+            "key": "team_hero_eyebrow",
+            "page": "Our Team",
+            "section": "Hero",
+            "label": "Eyebrow",
+            "type": "text",
+            "value": "Team"
+        },
+        {
+            "key": "team_hero_title",
+            "page": "Our Team",
+            "section": "Hero",
+            "label": "Headline",
+            "type": "textarea",
+            "value": "The people who show up every week"
+        },
+        {
+            "key": "team_hero_lead",
+            "page": "Our Team",
+            "section": "Hero",
+            "label": "Sub-headline",
+            "type": "textarea",
+            "value": "Meaning in Music is run entirely by students. These are the three of us who started it and keep it organized, and below them, the instructors who do the teaching."
+        },
+        {
+            "key": "team_lead_title",
+            "page": "Our Team",
+            "section": "Leadership",
+            "label": "Heading",
+            "type": "text",
+            "value": "Founders"
+        },
+        {
+            "key": "team_luca_img",
+            "page": "Our Team",
+            "section": "Leadership",
+            "label": "Luca — photo",
+            "type": "image",
+            "value": "luca-mazo.png"
+        },
+        {
+            "key": "team_luca_name",
+            "page": "Our Team",
+            "section": "Leadership",
+            "label": "Luca — name",
+            "type": "text",
+            "value": "Luca Mazo"
+        },
+        {
+            "key": "team_luca_role",
+            "page": "Our Team",
+            "section": "Leadership",
+            "label": "Luca — role",
+            "type": "text",
+            "value": "Co-Director"
+        },
+        {
+            "key": "team_luca_bio",
+            "page": "Our Team",
+            "section": "Leadership",
+            "label": "Luca — bio",
+            "type": "textarea",
+            "value": "Luca has played piano for twelve years and spends a lot of his free time writing music. He studies composition and music theory at the San Francisco Conservatory, and co-directs Meaning in Music with Lilian."
+        },
+        {
+            "key": "team_lilian_img",
+            "page": "Our Team",
+            "section": "Leadership",
+            "label": "Lilian — photo",
+            "type": "image",
+            "value": "lilian-zhang.png"
+        },
+        {
+            "key": "team_lilian_name",
+            "page": "Our Team",
+            "section": "Leadership",
+            "label": "Lilian — name",
+            "type": "text",
+            "value": "Lilian Zhang"
+        },
+        {
+            "key": "team_lilian_role",
+            "page": "Our Team",
+            "section": "Leadership",
+            "label": "Lilian — role",
+            "type": "text",
+            "value": "Co-Director"
+        },
+        {
+            "key": "team_lilian_bio",
+            "page": "Our Team",
+            "section": "Leadership",
+            "label": "Lilian — bio",
+            "type": "textarea",
+            "value": "Lilian has played piano for twelve years. She co-directs Meaning in Music and leads our outreach, which is how most families hear about us in the first place."
+        },
+        {
+            "key": "team_henry_img",
+            "page": "Our Team",
+            "section": "Leadership",
+            "label": "Henry — photo",
+            "type": "image",
+            "value": "henry-dhanalal.jpg"
+        },
+        {
+            "key": "team_henry_name",
+            "page": "Our Team",
+            "section": "Leadership",
+            "label": "Henry — name",
+            "type": "text",
+            "value": "Henry Dhanalal"
+        },
+        {
+            "key": "team_henry_role",
+            "page": "Our Team",
+            "section": "Leadership",
+            "label": "Henry — role",
+            "type": "text",
+            "value": "Director of Logistics"
+        },
+        {
+            "key": "team_henry_bio",
+            "page": "Our Team",
+            "section": "Leadership",
+            "label": "Henry — bio",
+            "type": "textarea",
+            "value": "Henry has played piano for eleven years and violin for six. He handles logistics: the budget, this website, and the day-to-day work of getting instruments and schedules where they need to be."
+        },
+        {
+            "key": "team_inst_img",
+            "page": "Our Team",
+            "section": "Instructors",
+            "label": "Inst img",
+            "type": "image",
+            "value": "program-chamber.jpg"
+        },
+        {
+            "key": "team_inst_credit",
+            "page": "Our Team",
+            "section": "Instructors",
+            "label": "Inst credit",
+            "type": "text",
+            "value": "Some of our instructors at a concert."
+        },
+        {
+            "key": "team_inst_title",
+            "page": "Our Team",
+            "section": "Instructors",
+            "label": "Heading",
+            "type": "text",
+            "value": "Our instructors"
+        },
+        {
+            "key": "team_inst_p",
+            "page": "Our Team",
+            "section": "Instructors",
+            "label": "Intro text",
+            "type": "textarea",
+            "value": "Our instructors are high school musicians who play in orchestras, bands, and chamber groups, and who give up an afternoon a week to teach a kid one-on-one."
+        },
+        {
+            "key": "team_inst_note",
+            "page": "Our Team",
+            "section": "Instructors",
+            "label": "Roster note",
+            "type": "textarea",
+            "value": "We're putting together a page to introduce them properly. In the meantime, if you're in high school, play an instrument, and want to teach, we'd love to hear from you."
+        },
+        {
+            "key": "app_hero_eyebrow",
+            "page": "Apply",
+            "section": "Hero",
+            "label": "Eyebrow",
+            "type": "text",
+            "value": "Apply"
+        },
+        {
+            "key": "app_hero_title",
+            "page": "Apply",
+            "section": "Hero",
+            "label": "Headline",
+            "type": "textarea",
+            "value": "Apply for free music lessons"
+        },
+        {
+            "key": "app_hero_lead",
+            "page": "Apply",
+            "section": "Hero",
+            "label": "Sub-headline",
+            "type": "textarea",
+            "value": "Lessons are free and taught one-on-one by high school musicians. Fill this out and one of us will reach out to set up a short call with you and your kid."
+        },
+        {
+            "key": "app_title",
+            "page": "Apply",
+            "section": "Application",
+            "label": "Heading",
+            "type": "text",
+            "value": "Application"
+        },
+        {
+            "key": "app_intro",
+            "page": "Apply",
+            "section": "Application",
+            "label": "Intro text",
+            "type": "textarea",
+            "value": "Tell us as much as you can. There are no wrong answers. It just helps us find the right teacher."
+        },
+        {
+            "key": "app_note",
+            "page": "Apply",
+            "section": "Application",
+            "label": "Cost note",
+            "type": "textarea",
+            "value": "There's no cost, now or later. If your kid doesn't have an instrument, say so in the form and we'll try to lend one from our donated instruments."
+        },
+        {
+            "key": "app_img",
+            "page": "Apply",
+            "section": "Sidebar",
+            "label": "Img",
+            "type": "image",
+            "value": "outdoor-concert.jpg"
+        },
+        {
+            "key": "app_img_credit",
+            "page": "Apply",
+            "section": "Sidebar",
+            "label": "Img credit",
+            "type": "text",
+            "value": "Our musicians performing outdoors."
+        },
+        {
+            "key": "app_next_title",
+            "page": "Apply",
+            "section": "Sidebar",
+            "label": "Next title",
+            "type": "text",
+            "value": "What happens next"
+        },
+        {
+            "key": "app_next_1_h",
+            "page": "Apply",
+            "section": "Sidebar",
+            "label": "Next 1 h",
+            "type": "text",
+            "value": "We read your form."
+        },
+        {
+            "key": "app_next_1_d",
+            "page": "Apply",
+            "section": "Sidebar",
+            "label": "Next 1 d",
+            "type": "text",
+            "value": "Someone on our team reads every one."
+        },
+        {
+            "key": "app_next_2_h",
+            "page": "Apply",
+            "section": "Sidebar",
+            "label": "Next 2 h",
+            "type": "text",
+            "value": "We set up a short call."
+        },
+        {
+            "key": "app_next_2_d",
+            "page": "Apply",
+            "section": "Sidebar",
+            "label": "Next 2 d",
+            "type": "text",
+            "value": "With you and your kid, to hear what they want to play."
+        },
+        {
+            "key": "app_next_3_h",
+            "page": "Apply",
+            "section": "Sidebar",
+            "label": "Next 3 h",
+            "type": "text",
+            "value": "They meet their teacher."
+        },
+        {
+            "key": "app_next_3_d",
+            "page": "Apply",
+            "section": "Sidebar",
+            "label": "Next 3 d",
+            "type": "text",
+            "value": "Then it's thirty minutes a week, at a time that works for you."
+        },
+        {
+            "key": "con_hero_eyebrow",
+            "page": "Contact",
+            "section": "Hero",
+            "label": "Eyebrow",
+            "type": "text",
+            "value": "Contact"
+        },
+        {
+            "key": "con_hero_title",
+            "page": "Contact",
+            "section": "Hero",
+            "label": "Headline",
+            "type": "textarea",
+            "value": "Write to us"
+        },
+        {
+            "key": "con_hero_lead",
+            "page": "Contact",
+            "section": "Hero",
+            "label": "Sub-headline",
+            "type": "textarea",
+            "value": "Whether it's lessons for your kid, teaching with us, an instrument you'd like to pass on, or something else entirely, send us a note. One of us reads every message and writes back."
+        },
+        {
+            "key": "con_email_title",
+            "page": "Contact",
+            "section": "Contact cards",
+            "label": "Email us — title",
+            "type": "text",
+            "value": "Email us"
+        },
+        {
+            "key": "con_email_value",
+            "page": "Contact",
+            "section": "Contact cards",
+            "label": "Email us — value",
+            "type": "text",
+            "value": "meaninginmusiceducation@gmail.com"
+        },
+        {
+            "key": "con_lessons_title",
+            "page": "Contact",
+            "section": "Contact cards",
+            "label": "Lessons — title",
+            "type": "text",
+            "value": "Lessons & applications"
+        },
+        {
+            "key": "con_lessons_value",
+            "page": "Contact",
+            "section": "Contact cards",
+            "label": "Lessons — value",
+            "type": "text",
+            "value": "Questions about signing up, schedules, or instruments"
+        },
+        {
+            "key": "con_out_title",
+            "page": "Contact",
+            "section": "Contact cards",
+            "label": "Outreach — title",
+            "type": "text",
+            "value": "Community & outreach"
+        },
+        {
+            "key": "con_out_value",
+            "page": "Contact",
+            "section": "Contact cards",
+            "label": "Outreach — value",
+            "type": "text",
+            "value": "Schools, community groups, and anyone who wants to help"
+        },
+        {
+            "key": "con_msg_title",
+            "page": "Contact",
+            "section": "Send a message",
+            "label": "Heading",
+            "type": "text",
+            "value": "Send a message"
+        },
+        {
+            "key": "con_msg_text",
+            "page": "Contact",
+            "section": "Send a message",
+            "label": "Text",
+            "type": "textarea",
+            "value": "This goes straight to our inbox."
+        },
+        {
+            "key": "qui_hero_eyebrow",
+            "page": "Get Involved",
+            "section": "Hero",
+            "label": "Eyebrow",
+            "type": "text",
+            "value": "Get Involved"
+        },
+        {
+            "key": "qui_hero_title",
+            "page": "Get Involved",
+            "section": "Hero",
+            "label": "Headline",
+            "type": "textarea",
+            "value": "Ways to help"
+        },
+        {
+            "key": "qui_hero_lead",
+            "page": "Get Involved",
+            "section": "Hero",
+            "label": "Sub-headline",
+            "type": "textarea",
+            "value": "You don't have to play an instrument to be useful here. Here's what makes the biggest difference."
+        },
+        {
+            "key": "qui_apply_title",
+            "page": "Get Involved",
+            "section": "Ways to help",
+            "label": "Apply — title",
+            "type": "text",
+            "value": "Apply for lessons"
+        },
+        {
+            "key": "qui_apply_text",
+            "page": "Get Involved",
+            "section": "Ways to help",
+            "label": "Apply — text",
+            "type": "textarea",
+            "value": "If you're a parent or guardian, sign your kid up. Lessons are free, one-on-one, and taught by a high schooler who plays their instrument."
+        },
+        {
+            "key": "qui_teach_title",
+            "page": "Get Involved",
+            "section": "Ways to help",
+            "label": "Teach — title",
+            "type": "text",
+            "value": "Teach as a high schooler"
+        },
+        {
+            "key": "qui_teach_text",
+            "page": "Get Involved",
+            "section": "Ways to help",
+            "label": "Teach — text",
+            "type": "textarea",
+            "value": "If you're in high school and play an instrument, teach a kid once a week. It counts toward service hours, and you'll learn more about music than you expect."
+        },
+        {
+            "key": "qui_teach_note",
+            "page": "Get Involved",
+            "section": "Ways to help",
+            "label": "Teach — note",
+            "type": "text",
+            "value": "Reach out on our contact page"
+        },
+        {
+            "key": "qui_vol_title",
+            "page": "Get Involved",
+            "section": "Ways to help",
+            "label": "Volunteer — title",
+            "type": "text",
+            "value": "Volunteer"
+        },
+        {
+            "key": "qui_vol_text",
+            "page": "Get Involved",
+            "section": "Ways to help",
+            "label": "Volunteer — text",
+            "type": "textarea",
+            "value": "Help with events, paperwork, or picking up and dropping off instruments."
+        },
+        {
+            "key": "qui_don_title",
+            "page": "Get Involved",
+            "section": "Ways to help",
+            "label": "Donate — title",
+            "type": "text",
+            "value": "Donate"
+        },
+        {
+            "key": "qui_don_text",
+            "page": "Get Involved",
+            "section": "Ways to help",
+            "label": "Donate — text",
+            "type": "textarea",
+            "value": "Money goes to instruments, repairs, and lesson books. So does an old violin from your closet."
+        },
+        {
+            "key": "qui_spread_title",
+            "page": "Get Involved",
+            "section": "Ways to help",
+            "label": "Spread the word — title",
+            "type": "text",
+            "value": "Spread the word"
+        },
+        {
+            "key": "qui_spread_text",
+            "page": "Get Involved",
+            "section": "Ways to help",
+            "label": "Spread the word — text",
+            "type": "textarea",
+            "value": "Most families find us through a friend or a school post. Telling one family about us really does help."
+        },
+        {
+            "key": "qui_cta_title",
+            "page": "Get Involved",
+            "section": "Call to action",
+            "label": "Heading",
+            "type": "textarea",
+            "value": "Not sure where to start?"
+        },
+        {
+            "key": "qui_cta_text",
+            "page": "Get Involved",
+            "section": "Call to action",
+            "label": "Text",
+            "type": "textarea",
+            "value": "Send us a note about what you're good at, and we'll find something."
+        },
+        {
+            "key": "miss_hero_eyebrow",
+            "page": "Mission",
+            "section": "Hero",
+            "label": "Eyebrow",
+            "type": "text",
+            "value": "Mission"
+        },
+        {
+            "key": "miss_hero_title",
+            "page": "Mission",
+            "section": "Hero",
+            "label": "Headline",
+            "type": "textarea",
+            "value": "Why we make music"
+        },
+        {
+            "key": "miss_hero_lead",
+            "page": "Mission",
+            "section": "Hero",
+            "label": "Sub-headline",
+            "type": "text",
+            "value": "What we're here to do, and what we try to stick to while we do it."
+        },
+        {
+            "key": "miss_statement",
+            "page": "Mission",
+            "section": "Mission statement",
+            "label": "Statement",
+            "type": "textarea",
+            "value": "Any kid who wants to learn music should get to, whatever their family can afford. We teach free lessons, lend donated instruments, and raise money for school music programs that need help."
+        },
+        {
+            "key": "miss_focus_eyebrow",
+            "page": "Mission",
+            "section": "Four commitments",
+            "label": "Eyebrow",
+            "type": "text",
+            "value": "Our core focuses"
+        },
+        {
+            "key": "miss_focus_title",
+            "page": "Mission",
+            "section": "Four commitments",
+            "label": "Heading",
+            "type": "text",
+            "value": "What we work on"
+        },
+        {
+            "key": "miss_access_title",
+            "page": "Mission",
+            "section": "Four commitments",
+            "label": "Access — title",
+            "type": "text",
+            "value": "Access"
+        },
+        {
+            "key": "miss_access_text",
+            "page": "Mission",
+            "section": "Four commitments",
+            "label": "Access — text",
+            "type": "textarea",
+            "value": "Give every child the chance to learn music and the opportunities it brings — no matter their financial situation."
+        },
+        {
+            "key": "miss_joy_title",
+            "page": "Mission",
+            "section": "Four commitments",
+            "label": "Joy — title",
+            "type": "text",
+            "value": "Joy"
+        },
+        {
+            "key": "miss_joy_text",
+            "page": "Mission",
+            "section": "Four commitments",
+            "label": "Joy — text",
+            "type": "textarea",
+            "value": "Introduce the joy of music to more people — with lessons that are fun, personal, and one-on-one."
+        },
+        {
+            "key": "miss_fun_title",
+            "page": "Mission",
+            "section": "Four commitments",
+            "label": "Fun lessons — title",
+            "type": "text",
+            "value": "Fund programs in need"
+        },
+        {
+            "key": "miss_fun_text",
+            "page": "Mission",
+            "section": "Four commitments",
+            "label": "Fun lessons — text",
+            "type": "textarea",
+            "value": "Raise donations, grants, and instrument drives to support school music programs that need it most."
+        },
+        {
+            "key": "miss_lead_title",
+            "page": "Mission",
+            "section": "Four commitments",
+            "label": "Leadership — title",
+            "type": "text",
+            "value": "Leadership"
+        },
+        {
+            "key": "miss_lead_text",
+            "page": "Mission",
+            "section": "Four commitments",
+            "label": "Leadership — text",
+            "type": "textarea",
+            "value": "High school students plan and teach real lessons, growing into leaders, organizers, and engaged members of their community."
+        },
+        {
+            "key": "miss_goals_eyebrow",
+            "page": "Mission",
+            "section": "Goals & values",
+            "label": "Eyebrow",
+            "type": "text",
+            "value": "Our goals & values"
+        },
+        {
+            "key": "miss_goals_title",
+            "page": "Mission",
+            "section": "Goals & values",
+            "label": "Heading",
+            "type": "text",
+            "value": "What we try to stick to"
+        },
+        {
+            "key": "ins_hero_eyebrow",
+            "page": "Instruments",
+            "section": "Hero",
+            "label": "Eyebrow",
+            "type": "text",
+            "value": "Donated Instruments"
+        },
+        {
+            "key": "ins_hero_title",
+            "page": "Instruments",
+            "section": "Hero",
+            "label": "Headline",
+            "type": "textarea",
+            "value": "Borrow an instrument, rent free"
+        },
+        {
+            "key": "ins_hero_lead",
+            "page": "Instruments",
+            "section": "Hero",
+            "label": "Sub-headline",
+            "type": "textarea",
+            "value": "Thanks to generous donors, we lend used instruments out at no cost. Browse the catalog, read each instrument's story and condition, and apply to borrow one while your child learns."
+        },
+        {
+            "key": "ins_cat_eyebrow",
+            "page": "Instruments",
+            "section": "Catalog",
+            "label": "Eyebrow",
+            "type": "text",
+            "value": "Catalog"
+        },
+        {
+            "key": "ins_cat_title",
+            "page": "Instruments",
+            "section": "Catalog",
+            "label": "Heading",
+            "type": "text",
+            "value": "Instruments to rent"
+        },
+        {
+            "key": "ins_cat_p",
+            "page": "Instruments",
+            "section": "Catalog",
+            "label": "Intro text",
+            "type": "textarea",
+            "value": "Click any instrument to see its photos, description, maker, and condition notes."
+        },
+        {
+            "key": "ins_apply_title",
+            "page": "Instruments",
+            "section": "Apply section",
+            "label": "Heading",
+            "type": "textarea",
+            "value": "Apply to rent an instrument"
+        },
+        {
+            "key": "ins_apply_text",
+            "page": "Instruments",
+            "section": "Apply section",
+            "label": "Intro text",
+            "type": "textarea",
+            "value": "Borrowing is completely free and instruments are lent while your child is active in lessons. Tell us a little about your situation so we can match you well."
+        },
+        {
+            "key": "ins_note",
+            "page": "Instruments",
+            "section": "Apply section",
+            "label": "Fine print",
+            "type": "textarea",
+            "value": "Reservations are first-come, first-served and reviewed by our team. Instruments stay property of Meaning in Music and are lent for free while your child is enrolled in lessons."
+        },
+        {
+            "key": "abt_mission_eyebrow",
+            "page": "About Us",
+            "section": "Mission statement",
+            "label": "Mission eyebrow",
+            "type": "text",
+            "value": "Our mission"
+        },
+        {
+            "key": "abt_story_eyebrow",
+            "page": "About Us",
+            "section": "Section labels",
+            "label": "Story eyebrow",
+            "type": "text",
+            "value": "Our story"
+        },
+        {
+            "key": "abt_why_eyebrow",
+            "page": "About Us",
+            "section": "Section labels",
+            "label": "Why eyebrow",
+            "type": "text",
+            "value": "Why one-on-one"
+        },
+        {
+            "key": "abt_how_eyebrow",
+            "page": "About Us",
+            "section": "Section labels",
+            "label": "How eyebrow",
+            "type": "text",
+            "value": "Who we serve"
+        },
+        {
+            "key": "abt_funds_eyebrow",
+            "page": "About Us",
+            "section": "Section labels",
+            "label": "Funds eyebrow",
+            "type": "text",
+            "value": "Transparency"
+        },
+        {
+            "key": "abt_values_eyebrow",
+            "page": "About Us",
+            "section": "Section labels",
+            "label": "Values eyebrow",
+            "type": "text",
+            "value": "Our values"
+        },
+        {
+            "key": "abt_roots_eyebrow",
+            "page": "About Us",
+            "section": "Section labels",
+            "label": "Roots eyebrow",
+            "type": "text",
+            "value": "Our roots"
+        },
+        {
+            "key": "abt_roots_address",
+            "page": "About Us",
+            "section": "Our roots",
+            "label": "Roots address",
+            "type": "textarea",
+            "value": "The Athenian School · 2100 Mount Diablo Scenic Blvd, Danville, CA 94506"
+        },
+        {
+            "key": "abt_roots_img",
+            "page": "About Us",
+            "section": "General",
+            "label": "Roots img",
+            "type": "image",
+            "value": "roots-campus-2.jpg"
+        },
+        {
+            "key": "abt_roots_credit",
+            "page": "About Us",
+            "section": "General",
+            "label": "Roots credit",
+            "type": "text",
+            "value": "The Athenian School, Danville, CA. Photo: Joe Fletcher."
+        }
+    ]
+}

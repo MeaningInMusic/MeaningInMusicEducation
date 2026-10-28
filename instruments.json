@@ -1,0 +1,50 @@
+[
+  {
+    "id": "seed_violin",
+    "createdAt": "2025",
+    "name": "Violin (½ size)",
+    "condition": "Good",
+    "images": [],
+    "manufacturer": "Stentor (student model)",
+    "year": "2017",
+    "description": "A sweet, warm-sounding half-size violin that's ideal for young beginners. Small enough to hold comfortably and light enough to build good posture from day one.",
+    "notes": "Some wear on the chin rest. Strings recently replaced and the bow rehaired last year. Plays clearly across all four strings.",
+    "details": ["½ size — easy for younger players", "Includes bow, case, and rosin", "Tuned and set up before lending"]
+  },
+  {
+    "id": "seed_keyboard",
+    "createdAt": "2025",
+    "name": "Keyboard (61-key)",
+    "condition": "Great",
+    "images": [],
+    "manufacturer": "Casio (CT series)",
+    "year": "2021",
+    "description": "A lightweight 61-key keyboard with a range of built-in sounds, a headphone jack, and simple controls. Perfect first instrument for exploring piano and composition.",
+    "notes": "Very lightly used — all keys and speakers working. No stand or sustain pedal included.",
+    "details": ["61 unweighted keys with touch response", "Headphone jack for quiet practice", "Power adapter included"]
+  },
+  {
+    "id": "seed_guitar",
+    "createdAt": "2025",
+    "name": "Acoustic Guitar",
+    "condition": "Fair",
+    "images": [],
+    "manufacturer": "Yamaha (F-series)",
+    "year": "2015",
+    "description": "A full-size steel-string dreadnought with a rich, projecting tone. Great for campfire songs, strumming, and learning chords.",
+    "notes": "Some dings on the body and a small scratch on the top — cosmetic only. Fresh strings fitted and the action checked, so it plays comfortably.",
+    "details": ["Full-size dreadnought body", "Fresh strings and low action", "Includes gig bag and clip-on tuner"]
+  },
+  {
+    "id": "seed_flute",
+    "createdAt": "2025",
+    "name": "Student Flute",
+    "condition": "Good",
+    "images": [],
+    "manufacturer": "Gemeinhardt (student model)",
+    "year": "2019",
+    "description": "A reliable student flute with a clear, bright tone. Closed-hole keys make it forgiving for first-timers learning hand position and embouchure.",
+    "notes": "Pads recently checked and adjusted; a few minor scratches on the body. Includes case and cleaning kit.",
+    "details": ["Closed-hole — ideal for beginners", "Clear tone across registers", "Includes case and cleaning kit"]
+  }
+]

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apply for Lessons: Meaning in Music</title>
+  <meta name="description" content="Apply for free, fun music lessons with Meaning in Music." />
+  <link rel="icon" href="logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main>
+    <div class="page-hero">
+      <span class="eyebrow" data-site-text="app_hero_eyebrow">Apply</span>
+      <h1 data-site-text="app_hero_title">Apply for free music lessons</h1>
+      <p class="lead" data-site-text="app_hero_lead">Lessons are free and taught one-on-one by high school musicians. Fill this out and one of us will reach out to set up a short call with you and your kid.</p>
+    </div>
+
+    <section class="section apply-layout">
+      <div class="glass">
+        <h2 style="font-size:1.7rem;margin-bottom:6px" data-site-text="app_title">Application</h2>
+        <p style="color:var(--text-dim);font-size:.96rem;margin-bottom:26px" data-site-text="app_intro">Tell us as much as you can. There are no wrong answers. It just helps us find the right teacher.</p>
+
+        <form class="form-grid" id="lessonForm">
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Parent / guardian name</label>
+              <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+            </div>
+            <div class="field">
+              <label for="childName">Child's name</label>
+              <input id="childName" name="childName" type="text" placeholder="Alex Doe" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="email">Contact email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="field">
+              <label for="phone">Phone <span style="color:var(--text-faint);font-weight:400">(optional)</span></label>
+              <input id="phone" name="phone" type="tel" placeholder="555-123-4567" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="age">Child's age</label>
+              <input id="age" name="age" type="number" min="1" max="18" placeholder="10" required />
+            </div>
+            <div class="field">
+              <label for="instrument">Instrument of interest</label>
+              <select id="instrument" name="instrument">
+                <option value="" disabled selected>Choose an instrument&hellip;</option>
+                <option>Violin</option>
+                <option>Piano / keyboard</option>
+                <option>Guitar</option>
+                <option>Flute</option>
+                <option>Other</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="school">Child's school <span style="color:var(--text-faint);font-weight:400">(optional)</span></label>
+              <input id="school" name="school" type="text" placeholder="e.g. Franklin Elementary" />
+            </div>
+            <div class="field">
+              <label for="grade">Grade <span style="color:var(--text-faint);font-weight:400">(optional)</span></label>
+              <input id="grade" name="grade" type="text" placeholder="e.g. 3rd grade" />
+            </div>
+          </div>
+          <div class="field">
+            <label for="experience">Previous experience (short answer)</label>
+            <input id="experience" name="experience" type="text" placeholder="e.g. A few years of piano at school" />
+          </div>
+          <div class="field">
+            <label for="whyMusic">Why do you want your child to learn music?</label>
+            <textarea id="whyMusic" name="whyMusic" placeholder="In your own words. A sentence or two is plenty." required></textarea>
+          </div>
+          <div class="field">
+            <label for="goals">What is your child hoping to get out of lessons?</label>
+            <textarea id="goals" name="goals" placeholder="e.g. Learn to read music, play a song they love, join the school band" required></textarea>
+          </div>
+          <div class="field">
+            <label for="availability">When is your child available for a weekly lesson?</label>
+            <input id="availability" name="availability" type="text" placeholder="e.g. Weekday evenings after 5pm, Saturday mornings" required />
+          </div>
+          <div class="field">
+            <label for="hearAbout">How did you hear about us?</label>
+            <input id="hearAbout" name="hearAbout" type="text" placeholder="e.g. Facebook, a friend, the school newsletter" />
+          </div>
+          <div class="field">
+            <label for="message">Anything else we should know?</label>
+            <textarea id="message" name="message" placeholder="Interests, school schedule, goals&hellip;"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="justify-content:center;width:100%">
+            Submit application
+          </button>
+          <p id="formStatus" style="display:none;text-align:center;font-size:.92rem;font-weight:600"></p>
+        </form>
+        <p class="instrument-note" style="margin-top:18px" data-site-text="app_note">There's no cost, now or later. If your kid doesn't have an instrument, say so in the form and we'll try to lend one from our donated instruments.</p>
+      </div>
+      <aside class="apply-aside">
+        <figure class="photo photo-tall">
+          <img src="outdoor-concert.jpg" data-site-img="app_img" alt="A student conducts a small orchestra performing outdoors" />
+          <figcaption data-site-text="app_img_credit">Our musicians performing outdoors.</figcaption>
+        </figure>
+        <h3 style="margin:28px 0 4px" data-site-text="app_next_title">What happens next</h3>
+        <ol class="steps">
+          <li><strong data-site-text="app_next_1_h">We read your form.</strong><span data-site-text="app_next_1_d">Someone on our team reads every one.</span></li>
+          <li><strong data-site-text="app_next_2_h">We set up a short call.</strong><span data-site-text="app_next_2_d">With you and your kid, to hear what they want to play.</span></li>
+          <li><strong data-site-text="app_next_3_h">They meet their teacher.</strong><span data-site-text="app_next_3_d">Then it's thirty minutes a week, at a time that works for you.</span></li>
+        </ol>
+      </aside>
+    </section>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="content.js"></script>
+  <script src="main.js"></script>
+  <script>
+    document.getElementById("lessonForm").addEventListener("submit", async function (e) {
+      e.preventDefault();
+      var btn = this.querySelector("button[type='submit']");
+      var status = document.getElementById("formStatus");
+      var payload = {
+        type: "Lessons",
+        name: document.getElementById("name").value.trim(),
+        childName: document.getElementById("childName").value.trim(),
+        email: document.getElementById("email").value.trim(),
+        phone: document.getElementById("phone").value.trim(),
+        age: document.getElementById("age").value.trim(),
+        school: document.getElementById("school").value.trim(),
+        grade: document.getElementById("grade").value.trim(),
+        instrument: document.getElementById("instrument").value,
+        experience: document.getElementById("experience").value.trim(),
+        whyMusic: document.getElementById("whyMusic").value.trim(),
+        goals: document.getElementById("goals").value.trim(),
+        availability: document.getElementById("availability").value.trim(),
+        hearAbout: document.getElementById("hearAbout").value.trim(),
+        message: document.getElementById("message").value.trim(),
+      };
+      btn.disabled = true;
+      btn.textContent = "Sending\u2026";
+      var result = await mimSubmitApplication(payload);
+      if (result.ok) {
+        status.style.display = "block";
+        status.style.color = "var(--green)";
+        status.textContent = "Thanks! Your application was sent. We'll be in touch soon.";
+        this.reset();
+      } else {
+        status.style.display = "block";
+        status.style.color = "var(--accent-deep)";
+        status.textContent = "We couldn't send your application right now. Please email meaninginmusiceducation@gmail.com instead.";
+      }
+      btn.disabled = false;
+      btn.textContent = "Submit application";
+    });
+  </script>
+</body>
+</html>
